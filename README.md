@@ -1,5 +1,8 @@
 # Where Cascaded ASR Pipelines Fail on Accented Learner Speech — and What Audio-Free Adaptation Can (and Can't) Fix
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20817700.svg)](https://doi.org/10.5281/zenodo.20817700)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A reproducible, CPU-friendly research pipeline that **(A)** measures *where and why*
 a streaming Whisper ASR pipeline fails on accented second-language (L2) English —
 separating the streaming/chunking penalty from accent-driven and model errors —
@@ -120,8 +123,7 @@ results/   derived CSV/Parquet/JSON/plots (safe to release)
 
 ## Paper & Citation
 
-Preprint: arXiv:`XXXX.XXXXX` (to be added).
-Archived code & derived results: Zenodo DOI `10.5281/zenodo.XXXXXXX` (to be added on release).
+Archived code & derived results: **Zenodo DOI [10.5281/zenodo.20817700](https://doi.org/10.5281/zenodo.20817700)**.
 
 ```bibtex
 @misc{zahid2026asrl2,
@@ -129,7 +131,8 @@ Archived code & derived results: Zenodo DOI `10.5281/zenodo.XXXXXXX` (to be adde
             and What Audio-Free Adaptation Can (and Can't) Fix},
   author = {Zahid, Hamna},
   year   = {2026},
-  note   = {Preprint. Code: https://doi.org/10.5281/zenodo.XXXXXXX}
+  doi    = {10.5281/zenodo.20817700},
+  note   = {Code and derived results: https://doi.org/10.5281/zenodo.20817700}
 }
 ```
 
