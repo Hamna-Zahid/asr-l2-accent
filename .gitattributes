@@ -1,0 +1,11 @@
+# Normalize line endings across platforms (text files -> LF in the repo).
+* text=auto eol=lf
+
+# Treat binary assets as binary (no line-ending munging / diffs).
+*.png   binary
+*.pdf   binary
+*.docx  binary
+*.pkl   binary
+*.parquet binary
+*.wav   binary
+*.safetensors binary

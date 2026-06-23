@@ -1,0 +1,168 @@
+{
+  "dataset": "svarah",
+  "lm": "neural:gpt2",
+  "nbest": 10,
+  "n_eval": 150,
+  "n_dev": 51,
+  "n_test": 99,
+  "lambda_grid": [
+    0.0,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.5,
+    1.0
+  ],
+  "dev_wer_by_lambda": {
+    "0.0": 0.06518282988871224,
+    "0.02": 0.06200317965023847,
+    "0.05": 0.06836248012718601,
+    "0.1": 0.07154213036565978,
+    "0.2": 0.07154213036565978,
+    "0.3": 0.08426073131955485,
+    "0.5": 0.09220985691573927,
+    "1.0": 0.09697933227344992
+  },
+  "best_lambda": 0.02,
+  "test_wer_baseline": 0.09982014388489209,
+  "test_wer_adapted": 0.10071942446043165,
+  "test_wer_delta": 0.0008992805755395628,
+  "n_changed": 5,
+  "stratified_by_accent": [
+    {
+      "accent": "Assamese",
+      "n": 6,
+      "wer_baseline": 0.05714285714285714,
+      "wer_adapted": 0.05714285714285714,
+      "delta": 0.0
+    },
+    {
+      "accent": "Bengali",
+      "n": 3,
+      "wer_baseline": 0.13043478260869565,
+      "wer_adapted": 0.13043478260869565,
+      "delta": 0.0
+    },
+    {
+      "accent": "Bodo",
+      "n": 6,
+      "wer_baseline": 0.20833333333333334,
+      "wer_adapted": 0.20833333333333334,
+      "delta": 0.0
+    },
+    {
+      "accent": "Dogri",
+      "n": 3,
+      "wer_baseline": 0.3103448275862069,
+      "wer_adapted": 0.3103448275862069,
+      "delta": 0.0
+    },
+    {
+      "accent": "Gujarati",
+      "n": 10,
+      "wer_baseline": 0.05042016806722689,
+      "wer_adapted": 0.06722689075630252,
+      "delta": 0.016806722689075626
+    },
+    {
+      "accent": "Hindi",
+      "n": 8,
+      "wer_baseline": 0.038461538461538464,
+      "wer_adapted": 0.038461538461538464,
+      "delta": 0.0
+    },
+    {
+      "accent": "Kannada",
+      "n": 12,
+      "wer_baseline": 0.0975609756097561,
+      "wer_adapted": 0.0975609756097561,
+      "delta": 0.0
+    },
+    {
+      "accent": "Kashmiri",
+      "n": 1,
+      "wer_baseline": 0.1111111111111111,
+      "wer_adapted": 0.1111111111111111,
+      "delta": 0.0
+    },
+    {
+      "accent": "Konkani",
+      "n": 7,
+      "wer_baseline": 0.08333333333333333,
+      "wer_adapted": 0.08333333333333333,
+      "delta": 0.0
+    },
+    {
+      "accent": "Maithili",
+      "n": 3,
+      "wer_baseline": 0.06521739130434782,
+      "wer_adapted": 0.043478260869565216,
+      "delta": -0.021739130434782608
+    },
+    {
+      "accent": "Malayalam",
+      "n": 5,
+      "wer_baseline": 0.15217391304347827,
+      "wer_adapted": 0.15217391304347827,
+      "delta": 0.0
+    },
+    {
+      "accent": "Marathi",
+      "n": 2,
+      "wer_baseline": 0.0,
+      "wer_adapted": 0.0,
+      "delta": null
+    },
+    {
+      "accent": "Nepali",
+      "n": 7,
+      "wer_baseline": 0.10891089108910891,
+      "wer_adapted": 0.10891089108910891,
+      "delta": 0.0
+    },
+    {
+      "accent": "Odia",
+      "n": 5,
+      "wer_baseline": 0.14285714285714285,
+      "wer_adapted": 0.14285714285714285,
+      "delta": 0.0
+    },
+    {
+      "accent": "Punjabi",
+      "n": 4,
+      "wer_baseline": 0.22727272727272727,
+      "wer_adapted": 0.22727272727272727,
+      "delta": 0.0
+    },
+    {
+      "accent": "Sindhi",
+      "n": 2,
+      "wer_baseline": 0.16666666666666666,
+      "wer_adapted": 0.16666666666666666,
+      "delta": 0.0
+    },
+    {
+      "accent": "Tamil",
+      "n": 3,
+      "wer_baseline": 0.16,
+      "wer_adapted": 0.16,
+      "delta": 0.0
+    },
+    {
+      "accent": "Telugu",
+      "n": 6,
+      "wer_baseline": 0.037037037037037035,
+      "wer_adapted": 0.037037037037037035,
+      "delta": 0.0
+    },
+    {
+      "accent": "Urdu",
+      "n": 6,
+      "wer_baseline": 0.10344827586206896,
+      "wer_adapted": 0.10344827586206896,
+      "delta": 0.0
+    }
+  ]
+}

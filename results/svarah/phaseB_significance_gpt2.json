@@ -1,0 +1,23 @@
+{
+  "dataset": "svarah",
+  "n_test": 99,
+  "n_boot": 10000,
+  "wer_baseline": 0.0998,
+  "wer_baseline_ci95": [
+    0.075,
+    0.129
+  ],
+  "wer_adapted": 0.1007,
+  "wer_adapted_ci95": [
+    0.076,
+    0.1301
+  ],
+  "delta_abs": 0.0009,
+  "delta_abs_ci95": [
+    -0.0026,
+    0.0055
+  ],
+  "delta_rel_pct": 0.9,
+  "p_value_one_sided": 0.7376,
+  "significant_at_0.05": false
+}

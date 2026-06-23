@@ -1,0 +1,33 @@
+{
+  "dataset": "l2arctic",
+  "n_changed_utts": 24,
+  "baseline_errors_by_category": {
+    "normalization": 17,
+    "reference_error": 5,
+    "hallucination": 14,
+    "model_lexical": 109,
+    "deletion_other": 12
+  },
+  "adapted_errors_by_category": {
+    "normalization": 15,
+    "reference_error": 5,
+    "hallucination": 13,
+    "model_lexical": 101,
+    "deletion_other": 13
+  },
+  "net_change_by_category": {
+    "deletion_other": 1,
+    "hallucination": -1,
+    "model_lexical": -8,
+    "normalization": -2,
+    "reference_error": 0
+  },
+  "fixed_by_category": {
+    "hallucination": 1,
+    "model_lexical": 8,
+    "normalization": 2
+  },
+  "regressed_by_category": {
+    "deletion_other": 1
+  }
+}

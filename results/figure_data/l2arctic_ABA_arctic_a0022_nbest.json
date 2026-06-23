@@ -1,0 +1,46 @@
+{
+  "ref": "Hardly were our plans made public before we were met by powerful opposition",
+  "wav": "D:\\Research\\asr-l2-accent\\data\\processed\\l2arctic\\wav\\l2arctic_ABA_arctic_a0022.wav",
+  "hyps": [
+    {
+      "text": "Hardly where our plans made public before we were met by powerful opposition.",
+      "ac": -0.16009820997714996,
+      "lm": -5.499619483947754
+    },
+    {
+      "text": "Hardly where our plans made public before we were made by powerful opposition.",
+      "ac": -0.20419852435588837,
+      "lm": -6.132094383239746
+    },
+    {
+      "text": "Hardly wear our plans made public before we were met by powerful opposition.",
+      "ac": -0.2066815048456192,
+      "lm": -5.820087432861328
+    },
+    {
+      "text": "Hardly were our plans made public before we were made by powerful opposition.",
+      "ac": -0.2102772444486618,
+      "lm": -5.356410980224609
+    },
+    {
+      "text": "Hardly where our plans met public before we were met by powerful opposition.",
+      "ac": -0.2120380401611328,
+      "lm": -5.872687339782715
+    },
+    {
+      "text": "Hardly were our plans made public before we were met by powerful opposition.",
+      "ac": -0.21572545170783997,
+      "lm": -4.73014497756958
+    },
+    {
+      "text": "Hardly wear our plans made public before we were made by powerful opposition.",
+      "ac": -0.21911926567554474,
+      "lm": -6.245044231414795
+    },
+    {
+      "text": "Hardly where our plans made public before we were met by powerful opposition",
+      "ac": -0.242838516831398,
+      "lm": -5.3711612565176825
+    }
+  ]
+}

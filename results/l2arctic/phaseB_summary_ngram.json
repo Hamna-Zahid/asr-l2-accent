@@ -1,0 +1,75 @@
+{
+  "dataset": "l2arctic",
+  "lm": "models/lm/l2arctic_4gram.pkl",
+  "nbest": 10,
+  "n_eval": 300,
+  "n_dev": 102,
+  "n_test": 198,
+  "lambda_grid": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.5,
+    0.7,
+    1.0
+  ],
+  "dev_wer_by_lambda": {
+    "0.0": 0.08259911894273128,
+    "0.1": 0.08259911894273128,
+    "0.2": 0.08590308370044053,
+    "0.3": 0.08920704845814978,
+    "0.5": 0.09691629955947137,
+    "0.7": 0.10242290748898679,
+    "1.0": 0.10682819383259912
+  },
+  "best_lambda": 0.0,
+  "test_wer_baseline": 0.08775852431525992,
+  "test_wer_adapted": 0.08775852431525992,
+  "test_wer_delta": 0.0,
+  "n_changed": 0,
+  "stratified_by_accent": [
+    {
+      "accent": "Arabic",
+      "n": 44,
+      "wer_baseline": 0.06565656565656566,
+      "wer_adapted": 0.06565656565656566,
+      "delta": 0.0
+    },
+    {
+      "accent": "Hindi",
+      "n": 34,
+      "wer_baseline": 0.027777777777777776,
+      "wer_adapted": 0.027777777777777776,
+      "delta": 0.0
+    },
+    {
+      "accent": "Korean",
+      "n": 31,
+      "wer_baseline": 0.03225806451612903,
+      "wer_adapted": 0.03225806451612903,
+      "delta": 0.0
+    },
+    {
+      "accent": "Mandarin",
+      "n": 33,
+      "wer_baseline": 0.13442622950819672,
+      "wer_adapted": 0.13442622950819672,
+      "delta": 0.0
+    },
+    {
+      "accent": "Spanish",
+      "n": 26,
+      "wer_baseline": 0.10084033613445378,
+      "wer_adapted": 0.10084033613445378,
+      "delta": 0.0
+    },
+    {
+      "accent": "Vietnamese",
+      "n": 30,
+      "wer_baseline": 0.17314487632508835,
+      "wer_adapted": 0.17314487632508835,
+      "delta": 0.0
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Datasets & audio (NEVER commit raw/licensed audio) ---
+data/
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+
+# --- Models / large binaries ---
+models/
+*.bin
+*.ct2
+*.arpa
+*.klm
+*.gz
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# --- Secrets ---
+.env
+*.key
+secrets.*
+credentials.*
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Node (docx generator dependencies) ---
+node_modules/
+
+# --- Results: keep CSV/Parquet/plots/reports, but ignore scratch ---
+results/scratch/
+results/**/*.tmp
+results/**/_*.log
+
+# --- Scratch / temp files ---
+_*.py
+*.output
+
+# --- Intermediate / scratch results (not meaningful outputs) ---
+*checkpoint*.jsonl
+*.NEW.*

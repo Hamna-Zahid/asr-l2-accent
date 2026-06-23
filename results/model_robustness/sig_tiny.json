@@ -1,0 +1,25 @@
+{
+  "dataset": "l2arctic",
+  "n_test": 198,
+  "n_boot": 10000,
+  "resample_unit": "utterance",
+  "n_speakers": 6,
+  "wer_baseline": 0.1465,
+  "wer_baseline_ci95": [
+    0.1245,
+    0.1691
+  ],
+  "wer_adapted": 0.1325,
+  "wer_adapted_ci95": [
+    0.1099,
+    0.1558
+  ],
+  "delta_abs": -0.014,
+  "delta_abs_ci95": [
+    -0.0255,
+    -0.0024
+  ],
+  "delta_rel_pct": -9.54,
+  "p_value_one_sided": 0.0098,
+  "significant_at_0.05": true
+}

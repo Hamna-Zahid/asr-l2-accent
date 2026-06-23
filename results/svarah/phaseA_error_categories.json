@@ -1,0 +1,18 @@
+{
+  "dataset": "svarah",
+  "n_errors": 160,
+  "counts": {
+    "hallucination": 34,
+    "normalization": 12,
+    "deletion_other": 23,
+    "reference_error": 3,
+    "model_lexical": 88
+  },
+  "proportions": {
+    "model_lexical": 0.55,
+    "hallucination": 0.2125,
+    "deletion_other": 0.1437,
+    "normalization": 0.075,
+    "reference_error": 0.0187
+  }
+}

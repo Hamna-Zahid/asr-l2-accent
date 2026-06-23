@@ -1,0 +1,25 @@
+{
+  "dataset": "l2arctic_24spk",
+  "n_test": 792,
+  "n_boot": 10000,
+  "resample_unit": "utterance",
+  "n_speakers": 24,
+  "wer_baseline": 0.0841,
+  "wer_baseline_ci95": [
+    0.0758,
+    0.0928
+  ],
+  "wer_adapted": 0.0774,
+  "wer_adapted_ci95": [
+    0.069,
+    0.086
+  ],
+  "delta_abs": -0.0068,
+  "delta_abs_ci95": [
+    -0.0106,
+    -0.003
+  ],
+  "delta_rel_pct": -8.03,
+  "p_value_one_sided": 0.0,
+  "significant_at_0.05": true
+}

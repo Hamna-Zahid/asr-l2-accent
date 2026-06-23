@@ -1,0 +1,65 @@
+# Default configuration for the cascaded ASR L2-accent pipeline.
+# All scripts read this file but every value can be overridden via CLI args.
+# Tuned for an 8GB-RAM, CPU-only (Intel i5-4300U class) workstation.
+
+seed: 1234
+
+paths:
+  data_root: data            # gitignored; populated by download scripts
+  results_root: results      # safe to commit (CSV/Parquet/plots/reports)
+  models_root: models        # gitignored; downloaded/converted ASR + LM models
+
+asr:
+  # Primary model. small.en = better accuracy (~500MB RAM @ int8),
+  # base.en = lighter/faster fallback (~250MB RAM @ int8) for slow CPUs.
+  model: small.en            # one of: small.en, base.en
+  device: auto               # auto -> cuda if available else cpu
+  compute_type: int8         # int8 keeps RAM low on CPU; float32 if accuracy-critical
+  cpu_threads: 4             # i5-4300U has 2 cores / 4 threads
+  language: en
+  beam_size: 5               # used for offline; n-best rescoring overrides in Phase B
+
+vad:
+  # Silero VAD parameters.
+  enabled: true
+  threshold: 0.5
+  min_speech_ms: 250
+  min_silence_ms: 100
+  sample_rate: 16000
+
+streaming:
+  # Phase A.1 streaming-mismatch harness.
+  # 320ms dropped from the default sweep: faster-whisper pads every chunk's
+  # encoder input to 30s, so cost scales with NUMBER of chunks (utt_len/chunk),
+  # making 320ms ~10x offline cost on this CPU — and 320ms is unrealistically
+  # small for Whisper (needs context). Add it back for a small-subset study.
+  chunk_sizes_ms: [640, 1280]
+  left_context_ms: 2000      # free cost-wise (encoder pads to 30s); aids accuracy
+  # Offline mode is always run as the reference condition.
+
+eval:
+  # Subsampling to keep total runtime tractable on a slow CPU.
+  # Set max_utterances: null to run the FULL set (slow!).
+  max_utterances: 150        # per dataset, per condition (slow-CPU budget)
+  # Svarah mixes full sentences with very short single-word command/digit clips
+  # (~19% are <1s). Sub-chunk-length clips are meaningless for streaming chunk
+  # analysis and inflate WER variance. Set >0 to exclude them; 0 keeps all.
+  min_duration_s: 1.0
+  compute_cer: true
+
+lm:
+  # Phase B audio-free domain adaptation (n-best rescoring).
+  ngram_order: 4
+  backend: auto              # auto -> kenlm if available else pure-python ngram
+  nbest: 10                  # number of hypotheses per utterance to rescore
+  # Shallow-fusion weight grid, tuned on a held-out dev split:
+  # score_final = acoustic_logprob + lambda * lm_logprob
+  lambda_grid: [0.0, 0.1, 0.2, 0.3, 0.5, 0.7, 1.0]
+
+datasets:
+  svarah:
+    enabled: true
+  l2arctic:
+    enabled: true
+  speak_and_improve:
+    enabled: false           # optional secondary; non-commercial license

@@ -1,0 +1,26 @@
+{
+  "condition": "offline",
+  "tol_s": 0.15,
+  "n_annotated_utts": 300,
+  "n_asr_errors_on_annotated_utts": 264,
+  "n_coincide_mispronunciation": 136,
+  "frac_coincide": 0.5152,
+  "interpretation": "frac_coincide ~ share of ASR errors that fall on a genuinely mispronounced phone (accent-driven); the remainder are ASR errors on correctly-produced speech.",
+  "by_op": [
+    {
+      "op": "delete",
+      "n_errors": 15,
+      "n_coincide": 9
+    },
+    {
+      "op": "insert",
+      "n_errors": 42,
+      "n_coincide": 12
+    },
+    {
+      "op": "substitute",
+      "n_errors": 207,
+      "n_coincide": 115
+    }
+  ]
+}

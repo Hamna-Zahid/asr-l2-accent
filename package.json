@@ -1,0 +1,14 @@
+{
+  "name": "asr-l2-accent",
+  "version": "1.0.0",
+  "description": "Document generator for the paper 'Where Cascaded ASR Pipelines Fail on Accented Learner Speech'. Builds the Word manuscript from paper/build_paper.js.",
+  "license": "MIT",
+  "author": "Hamna Zahid",
+  "private": true,
+  "scripts": {
+    "build:docx": "node paper/build_paper.js"
+  },
+  "dependencies": {
+    "docx": "^9.7.1"
+  }
+}

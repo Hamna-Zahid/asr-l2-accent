@@ -1,0 +1,12 @@
+{
+  "n_substitutions": 207,
+  "tp": 45,
+  "fp": 36,
+  "tn": 56,
+  "fn": 70,
+  "agreement": 0.488,
+  "precision": 0.556,
+  "recall": 0.391,
+  "f1": 0.459,
+  "cohen_kappa": 0.0
+}

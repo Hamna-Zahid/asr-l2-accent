@@ -1,0 +1,161 @@
+utt_id,dataset,condition,op,ref_word,hyp_word,ref_context,approx_time_s,speaker,accent,why_category,annotator_notes,pattern_freq
+svarah_00487,svarah,offline,insert,,the,,0.62,,Odia,hallucination,auto-rule,4
+svarah_01398,svarah,offline,insert,,the,,1.04,,Sindhi,hallucination,auto-rule,4
+svarah_01485,svarah,offline,insert,,the,,4.18,,Dogri,hallucination,auto-rule,4
+svarah_02004,svarah,offline,insert,,the,,2.92,,Telugu,hallucination,auto-rule,4
+svarah_00038,svarah,offline,substitute,centres,centers,there any vaccination [centres] available in south goa district for age group eighteen plus,1.5,,Nepali,normalization,auto-rule,4
+svarah_01468,svarah,offline,substitute,centres,centers,any free vaccination [centres] which provide booster,2.28,,Konkani,normalization,auto-rule,4
+svarah_01733,svarah,offline,substitute,centres,centers,of state data [centres] leveraging cloud services,2.26,,Nepali,normalization,auto-rule,4
+svarah_02004,svarah,offline,substitute,centres,centers,any paid vaccination [centres] which provide booster,1.64,,Telugu,normalization,auto-rule,4
+svarah_00461,svarah,offline,delete,it,,[it] got stick it,0,,Kannada,deletion_other,auto-rule,2
+svarah_01353,svarah,offline,delete,it,,into doodling and [it] gradually converted to,0,,Hindi,deletion_other,auto-rule,2
+svarah_00813,svarah,offline,insert,,but,,0,,Odia,hallucination,auto-rule,2
+svarah_01733,svarah,offline,insert,,of,,0,,Nepali,hallucination,auto-rule,2
+svarah_02080,svarah,offline,insert,,but,,0,,Dogri,hallucination,auto-rule,2
+svarah_02223,svarah,offline,insert,,an,,2.48,,Kashmiri,hallucination,auto-rule,2
+svarah_02265,svarah,offline,insert,,a,,0.8,,Kannada,hallucination,auto-rule,2
+svarah_02367,svarah,offline,insert,,a,,1.74,,Kannada,hallucination,auto-rule,2
+svarah_02515,svarah,offline,insert,,of,,0,,Kannada,hallucination,auto-rule,2
+svarah_02602,svarah,offline,insert,,an,,3.5,,Konkani,hallucination,auto-rule,2
+svarah_00921,svarah,offline,substitute,packs,bags,as face [packs] or hair packs,1.8,,Kannada,model_lexical,auto-rule,2
+svarah_00921,svarah,offline,substitute,packs,bags,packs or hair [packs],2.54,,Kannada,model_lexical,auto-rule,2
+svarah_01535,svarah,offline,delete,96739,,received the otp [096739] can you please,0.84,,Malayalam,deletion_other,auto-rule,1
+svarah_01416,svarah,offline,delete,555,,90 [555] 5110 9780 and,5.04,,Urdu,deletion_other,auto-rule,1
+svarah_02673,svarah,offline,delete,and,,and art forms [and],16.94,,Nepali,deletion_other,auto-rule,1
+svarah_02064,svarah,offline,delete,bank,,my odisha gramya [bank] account,3.74,,Bengali,deletion_other,auto-rule,1
+svarah_01681,svarah,offline,delete,doing,,and i love [doing] capturing leaves and,0,,Bengali,deletion_other,auto-rule,1
+svarah_00053,svarah,offline,delete,every,,chemotherapy everything every [every] option for cancer,0,,Gujarati,deletion_other,auto-rule,1
+svarah_01951,svarah,offline,delete,favorite,,a particular from [favorite] book,1.18,,Odia,deletion_other,auto-rule,1
+svarah_00887,svarah,offline,delete,first,,drives are his [first] love and i,0.96,,Konkani,deletion_other,auto-rule,1
+svarah_00180,svarah,offline,delete,gajar,,[gajar] halwa i did,0,,Maithili,deletion_other,auto-rule,1
+svarah_00180,svarah,offline,delete,halwa,,gajar [halwa] i did not,0,,Maithili,deletion_other,auto-rule,1
+svarah_01207,svarah,offline,delete,in,,english is mandatory [in] india,0,,Malayalam,deletion_other,auto-rule,1
+svarah_01207,svarah,offline,delete,india,,is mandatory in [india],0,,Malayalam,deletion_other,auto-rule,1
+svarah_00541,svarah,offline,delete,into,,investigate into corruption [into] selections and one,3.78,,Gujarati,deletion_other,auto-rule,1
+svarah_02515,svarah,offline,delete,name,,day shamanatai her [name] is yashoda,2.8,,Kannada,deletion_other,auto-rule,1
+svarah_01529,svarah,offline,delete,ons,,bus drivers pay [ons] etc also get,3,,Kashmiri,deletion_other,auto-rule,1
+svarah_02245,svarah,offline,delete,place,,forest of a [place] named the nabhander,6.36,,Bodo,deletion_other,auto-rule,1
+svarah_01535,svarah,offline,delete,portal,,into co win [portal],16.42,,Malayalam,deletion_other,auto-rule,1
+svarah_00813,svarah,offline,delete,several,,rather there are [several] several local stories,0,,Odia,deletion_other,auto-rule,1
+svarah_02773,svarah,offline,delete,the,,a list of [the] contacts i sent,0,,Tamil,deletion_other,auto-rule,1
+svarah_00541,svarah,offline,delete,think,,one is i [think],3.78,,Gujarati,deletion_other,auto-rule,1
+svarah_02625,svarah,offline,delete,win,,login to co [win] portal using phone,0.64,,Dogri,deletion_other,auto-rule,1
+svarah_00038,svarah,offline,insert,,plus,,5.92,,Nepali,hallucination,auto-rule,1
+svarah_00487,svarah,offline,insert,,known,,0,,Odia,hallucination,auto-rule,1
+svarah_00487,svarah,offline,insert,,as,,0.38,,Odia,hallucination,auto-rule,1
+svarah_00514,svarah,offline,insert,,it,,0.12,,Dogri,hallucination,auto-rule,1
+svarah_00697,svarah,offline,insert,,yela,,0,,Punjabi,hallucination,auto-rule,1
+svarah_00722,svarah,offline,insert,,cities,,1.4,,Malayalam,hallucination,auto-rule,1
+svarah_00982,svarah,offline,insert,,eleven,,0,,Assamese,hallucination,auto-rule,1
+svarah_00982,svarah,offline,insert,,hundred,,0.48,,Assamese,hallucination,auto-rule,1
+svarah_00999,svarah,offline,insert,,you,,1.96,,Tamil,hallucination,auto-rule,1
+svarah_01163,svarah,offline,insert,,new,,0.58,,Punjabi,hallucination,auto-rule,1
+svarah_01163,svarah,offline,insert,,trio,,0.88,,Punjabi,hallucination,auto-rule,1
+svarah_01163,svarah,offline,insert,,ground,,2.2,,Punjabi,hallucination,auto-rule,1
+svarah_01237,svarah,offline,insert,,don't,,5.4,,Kashmiri,hallucination,auto-rule,1
+svarah_01304,svarah,offline,insert,,nz,,7,,Kannada,hallucination,auto-rule,1
+svarah_01517,svarah,offline,insert,,ai,,1.14,,Urdu,hallucination,auto-rule,1
+svarah_01517,svarah,offline,insert,,for,,1.56,,Urdu,hallucination,auto-rule,1
+svarah_01535,svarah,offline,insert,,log,,14.4,,Malayalam,hallucination,auto-rule,1
+svarah_01966,svarah,offline,insert,,if,,0,,Bodo,hallucination,auto-rule,1
+svarah_01966,svarah,offline,insert,,not,,0.42,,Bodo,hallucination,auto-rule,1
+svarah_02080,svarah,offline,insert,,they,,0.66,,Dogri,hallucination,auto-rule,1
+svarah_02245,svarah,offline,insert,,knob,,7.7,,Bodo,hallucination,auto-rule,1
+svarah_02265,svarah,offline,insert,,p,,0.32,,Kannada,hallucination,auto-rule,1
+svarah_02265,svarah,offline,insert,,r,,0.6,,Kannada,hallucination,auto-rule,1
+svarah_02625,svarah,offline,insert,,mobile,,1.94,,Dogri,hallucination,auto-rule,1
+svarah_02625,svarah,offline,insert,,9407,,2.92,,Dogri,hallucination,auto-rule,1
+svarah_00982,svarah,offline,substitute,1109,nine,[1109],1.14,,Assamese,normalization,auto-rule,1
+svarah_02414,svarah,offline,substitute,20000,rupees,please transfer rs [20000] to my citrus,1.54,,Kannada,model_lexical,auto-rule,1
+svarah_02768,svarah,offline,substitute,31,31st,[31] january 2020,0,,Malayalam,normalization,auto-rule,1
+svarah_02625,svarah,offline,substitute,4061,1764061,phone number 94072137176 [4061] and otp,5.62,,Dogri,normalization,auto-rule,1
+svarah_02265,svarah,offline,substitute,4819122239,481912239,pran number is [4819122239],1.88,,Kannada,normalization,auto-rule,1
+svarah_01416,svarah,offline,substitute,90,9555,[90] 555 5110 9780,5.04,,Urdu,normalization,auto-rule,1
+svarah_02625,svarah,offline,substitute,94072137176,2137,using phone number [94072137176] 4061 and otp,4.1,,Dogri,normalization,auto-rule,1
+svarah_02245,svarah,offline,substitute,a,less,the forest of [a] place named the,6.36,,Bodo,model_lexical,auto-rule,1
+svarah_01517,svarah,offline,substitute,ai4bharat,bar,here with [ai4bharat] too,1.84,,Urdu,model_lexical,auto-rule,1
+svarah_00168,svarah,offline,substitute,ambipur,mbpoc,the brand of [ambipur] car freshener gel,0.78,,Konkani,model_lexical,auto-rule,1
+svarah_00720,svarah,offline,substitute,and,men,the movie dhoom [and] i was probably,7.96,,Assamese,model_lexical,auto-rule,1
+svarah_00732,svarah,offline,substitute,are,i,standard 8 9 [are] also taught how,4.26,,Gujarati,model_lexical,auto-rule,1
+svarah_00887,svarah,offline,substitute,are,is,long drives [are] his first love,0.64,,Konkani,model_lexical,auto-rule,1
+svarah_01805,svarah,offline,substitute,baukungri,balcony,and climb the [baukungri] peak,1.04,,Bodo,model_lexical,auto-rule,1
+svarah_02417,svarah,offline,substitute,bhartanatyam,barkhanatyam,[bhartanatyam] also enjoys wide,0,,Urdu,model_lexical,auto-rule,1
+svarah_00398,svarah,offline,substitute,bodos,borders,celebrated by the [bodos] in a traditional,2.52,,Bodo,model_lexical,auto-rule,1
+svarah_02259,svarah,offline,substitute,breads,bread's,show me all [breads] items,0.66,,Bengali,model_lexical,auto-rule,1
+svarah_00950,svarah,offline,substitute,brokarage,brokerage,what's the [brokarage] rate for investing,0.46,,Urdu,model_lexical,auto-rule,1
+svarah_02124,svarah,offline,substitute,cain,kain,clarina victor cheryl [cain],5.12,,Konkani,model_lexical,auto-rule,1
+svarah_02540,svarah,offline,substitute,canoe,kennel,is there a [canoe] shop around here,0.76,,Malayalam,model_lexical,auto-rule,1
+svarah_00722,svarah,offline,substitute,center,earth,traffic around city [center],2.14,,Malayalam,model_lexical,auto-rule,1
+svarah_00878,svarah,offline,substitute,chandrabhaga,bhaagha,there is konar [chandrabhaga] beach,2.26,,Odia,model_lexical,auto-rule,1
+svarah_02142,svarah,offline,substitute,chhath,chhad,puja and then [chhath] diwali,5.38,,Maithili,model_lexical,auto-rule,1
+svarah_00697,svarah,offline,substitute,chikkamagaluru,chikmagluru,in kudremukh in [chikkamagaluru] district of karnataka,3.06,,Punjabi,model_lexical,auto-rule,1
+svarah_00722,svarah,offline,substitute,city,and,the traffic around [city] center,1.78,,Malayalam,model_lexical,auto-rule,1
+svarah_01805,svarah,offline,substitute,climb,climbed,throng and [climb] the baukungri peak,0.56,,Bodo,model_lexical,auto-rule,1
+svarah_01535,svarah,offline,substitute,co,carbon,to login into [co] win portal,15.66,,Malayalam,model_lexical,auto-rule,1
+svarah_02625,svarah,offline,substitute,co,covent,login to [co] win portal using,0.64,,Dogri,model_lexical,auto-rule,1
+svarah_00541,svarah,offline,substitute,corruption,two,to investigate into [corruption] into selections and,3.78,,Gujarati,model_lexical,auto-rule,1
+svarah_02065,svarah,offline,substitute,dhania,dhaniya,[dhania] and all that,0,,Nepali,model_lexical,auto-rule,1
+svarah_00720,svarah,offline,substitute,dhoom,two,came the movie [dhoom] and i was,7.7,,Assamese,model_lexical,auto-rule,1
+svarah_00406,svarah,offline,substitute,favorite,favourite,my [favorite] quote is from,0.14,,Hindi,model_lexical,auto-rule,1
+svarah_01817,svarah,offline,substitute,flasks,flash,any discount on [flasks],1.12,,Gujarati,model_lexical,auto-rule,1
+svarah_00021,svarah,offline,substitute,flavours,flavors,warmth and the [flavours] are very different,6.42,,Hindi,model_lexical,auto-rule,1
+svarah_01966,svarah,offline,substitute,forest,protest,hiding in a [forest],8.08,,Bodo,model_lexical,auto-rule,1
+svarah_02673,svarah,offline,substitute,forms,form,dance and art [forms] and,16.94,,Nepali,model_lexical,auto-rule,1
+svarah_01966,svarah,offline,substitute,freedom,predom,sikna jehelau a [freedom] fighter fought against,3.74,,Bodo,model_lexical,auto-rule,1
+svarah_01951,svarah,offline,substitute,from,copyright,from a particular [from] favorite book,1.18,,Odia,model_lexical,auto-rule,1
+svarah_02064,svarah,offline,substitute,gramya,grammubank,in my odisha [gramya] bank account,3.74,,Bengali,model_lexical,auto-rule,1
+svarah_01163,svarah,offline,substitute,groundnut,net,find nutriorg organic [groundnut] oil more expensive,2.58,,Punjabi,model_lexical,auto-rule,1
+svarah_00089,svarah,offline,substitute,gujarati,gujrati,communication has been [gujarati],2.98,,Gujarati,model_lexical,auto-rule,1
+svarah_01612,svarah,offline,substitute,has,have,read and which [has] changed my perspective,4.52,,Nepali,model_lexical,auto-rule,1
+svarah_02515,svarah,offline,substitute,her,harnim,one day shamanatai [her] name is yashoda,2.8,,Kannada,model_lexical,auto-rule,1
+svarah_00514,svarah,offline,substitute,highly,all,and it's [highly] impacted our business,0.4,,Dogri,model_lexical,auto-rule,1
+svarah_00887,svarah,offline,substitute,his,forced,long drives are [his] first love and,0.96,,Konkani,model_lexical,auto-rule,1
+svarah_00541,svarah,offline,substitute,into,in,one to investigate [into] corruption into selections,3.48,,Gujarati,model_lexical,auto-rule,1
+svarah_00878,svarah,offline,substitute,is,konaar,and there [is] konar chandrabhaga beach,1.7,,Odia,model_lexical,auto-rule,1
+svarah_00514,svarah,offline,substitute,it's,has,and [it's] highly impacted our,0.22,,Dogri,model_lexical,auto-rule,1
+svarah_01590,svarah,offline,substitute,items,item,recommend some supplement [items] products,1.22,,Assamese,model_lexical,auto-rule,1
+svarah_01966,svarah,offline,substitute,jehelau,law,sikna [jehelau] a freedom fighter,0.8,,Bodo,model_lexical,auto-rule,1
+svarah_02528,svarah,offline,substitute,jewellery,jewelry,crafts like tribal [jewellery] and so on,3.46,,Kannada,model_lexical,auto-rule,1
+svarah_02643,svarah,offline,substitute,kannada,karnada,books written by [kannada] writers but in,4.84,,Kannada,model_lexical,auto-rule,1
+svarah_00878,svarah,offline,substitute,konar,chandra,and there is [konar] chandrabhaga beach,2.04,,Odia,model_lexical,auto-rule,1
+svarah_00697,svarah,offline,substitute,kudremukh,kudramuk,yelaneeru ghat in [kudremukh] in chikkamagaluru district,2.12,,Punjabi,model_lexical,auto-rule,1
+svarah_01535,svarah,offline,substitute,login,in,number 67435223193 to [login] into co win,14.7,,Malayalam,model_lexical,auto-rule,1
+svarah_02367,svarah,offline,substitute,messages,message,notifications for chat [messages],2.08,,Kannada,model_lexical,auto-rule,1
+svarah_01613,svarah,offline,substitute,mithilanchal,midlandjal,[mithilanchal] is mainly famous,0,,Maithili,model_lexical,auto-rule,1
+svarah_02245,svarah,offline,substitute,nabhander,hunter,place named the [nabhander],8.08,,Bodo,model_lexical,auto-rule,1
+svarah_01163,svarah,offline,substitute,nutriorg,rg,i find [nutriorg] organic groundnut oil,1.34,,Punjabi,model_lexical,auto-rule,1
+svarah_01304,svarah,offline,substitute,nz2022211011104111034911,2.02221E+20,with application id [nz2022211011104111034911] and date of,7.76,,Kannada,normalization,auto-rule,1
+svarah_01535,svarah,offline,substitute,otp,rtp096739,have received the [otp] 096739 can you,0.84,,Malayalam,model_lexical,auto-rule,1
+svarah_00434,svarah,offline,substitute,our,are,means that all [our] citizens,5.22,,Malayalam,model_lexical,auto-rule,1
+svarah_02417,svarah,offline,substitute,patronage,patternage,also enjoys wide [patronage] in karnataka,2.74,,Urdu,model_lexical,auto-rule,1
+svarah_01502,svarah,offline,substitute,patronization,patternization,[patronization] in the state,0.52,,Kannada,model_lexical,auto-rule,1
+svarah_01529,svarah,offline,substitute,pay,payons,school bus drivers [pay] ons etc also,3,,Kashmiri,model_lexical,auto-rule,1
+svarah_01805,svarah,offline,substitute,peak,free,climb the baukungri [peak],1.22,,Bodo,model_lexical,auto-rule,1
+svarah_02265,svarah,offline,substitute,pran,n,my [pran] number is 4819122239,1,,Kannada,model_lexical,auto-rule,1
+svarah_00169,svarah,offline,substitute,raashee,rashi,called what's your [raashee] which was based,2.58,,Gujarati,model_lexical,auto-rule,1
+svarah_00690,svarah,offline,substitute,reciept,receipt,show me the [reciept] of my credit,1.46,,Bengali,model_lexical,auto-rule,1
+svarah_00168,svarah,offline,substitute,recieved,received,freshener gel i [recieved] is not correct,3,,Konkani,model_lexical,auto-rule,1
+svarah_00964,svarah,offline,substitute,riyaz,riyas,i do much [riyaz] or practice before,0.8,,Gujarati,model_lexical,auto-rule,1
+svarah_02414,svarah,offline,substitute,rs,2000,please transfer [rs] 20000 to my,0.94,,Kannada,model_lexical,auto-rule,1
+svarah_02221,svarah,offline,substitute,schemata,schematic,classified by different [schemata],2.6,,Konkani,model_lexical,auto-rule,1
+svarah_02515,svarah,offline,substitute,shamanatai,shamanathai,one day [shamanatai] her name is,1.32,,Kannada,model_lexical,auto-rule,1
+svarah_01966,svarah,offline,substitute,sikna,the,[sikna] jehelau a freedom,0.62,,Bodo,model_lexical,auto-rule,1
+svarah_00487,svarah,offline,substitute,sir,sergeant,the chairmanship of [sir] john simon,6.68,,Odia,model_lexical,auto-rule,1
+svarah_01733,svarah,offline,substitute,startup,start,for the startups [startup] warehouse,7.34,,Nepali,model_lexical,auto-rule,1
+svarah_01733,svarah,offline,substitute,startups,starters,services for the [startups] startup warehouse,5.88,,Nepali,model_lexical,auto-rule,1
+svarah_01502,svarah,offline,substitute,state,straight,patronization in the [state],1.3,,Kannada,model_lexical,auto-rule,1
+svarah_00461,svarah,offline,substitute,stick,sticky,it got [stick] it just went,0.4,,Kannada,model_lexical,auto-rule,1
+svarah_00878,svarah,offline,substitute,there,there's,and [there] is konar chandrabhaga,0.54,,Odia,normalization,auto-rule,1
+svarah_00721,svarah,offline,substitute,thers,there,are [thers] any nearby vaccination,0.28,,Nepali,normalization,auto-rule,1
+svarah_01805,svarah,offline,substitute,throng,thrones,[throng] and climb the,0,,Bodo,model_lexical,auto-rule,1
+svarah_01517,svarah,offline,substitute,too,2,here with ai4bharat [too],2.08,,Urdu,model_lexical,auto-rule,1
+svarah_01733,svarah,offline,substitute,upgradation,gradation,[upgradation] of state data,0.24,,Nepali,model_lexical,auto-rule,1
+svarah_02166,svarah,offline,substitute,vadodara's,adodra's,palace residence of [vadodara's] royal family,3.3,,Sindhi,model_lexical,auto-rule,1
+svarah_02166,svarah,offline,substitute,vilas,vila's,lakshmi [vilas] palace residence of,0.84,,Sindhi,model_lexical,auto-rule,1
+svarah_01973,svarah,offline,substitute,wahida,vahida,upi transaction to [wahida] is successful,3.04,,Tamil,model_lexical,auto-rule,1
+svarah_00999,svarah,offline,substitute,wallet,valid,my yono sbi [wallet],2.8,,Tamil,model_lexical,auto-rule,1
+svarah_01733,svarah,offline,substitute,warehouse,of,the startups startup [warehouse],7.4,,Nepali,model_lexical,auto-rule,1
+svarah_01535,svarah,offline,substitute,win,bottle,login into co [win] portal,16.42,,Malayalam,model_lexical,auto-rule,1
+svarah_00697,svarah,offline,substitute,yelaneeru,nehru,[yelaneeru] ghat in kudremukh,0.58,,Punjabi,model_lexical,auto-rule,1
+svarah_00999,svarah,offline,substitute,yono,know,i activate my [yono] sbi wallet,1.96,,Tamil,model_lexical,auto-rule,1
+svarah_00169,svarah,offline,substitute,your,a,movie called what's [your] raashee which was,2.5,,Gujarati,model_lexical,auto-rule,1

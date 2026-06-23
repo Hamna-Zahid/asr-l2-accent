@@ -1,0 +1,8 @@
+Allowed why_category values (fill in the error CSV by hand):
+  - accent_phoneme
+  - disfluency
+  - vad_cutoff
+  - hallucination
+  - reference_error
+  - normalization
+  - other

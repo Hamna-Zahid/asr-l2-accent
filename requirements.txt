@@ -1,0 +1,32 @@
+# Core ASR pipeline — tested on Python 3.11 (Windows, CPU-only, 8GB RAM).
+# Python 3.14 is NOT supported (ML stack lacks wheels as of 2026-06).
+#
+# Install torch from the CPU index first:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r requirements.txt
+
+faster-whisper>=1.0,<2.0      # CTranslate2-backed Whisper (ASR engine)
+ctranslate2>=4.0,<5.0         # pulled by faster-whisper; n-best via num_hypotheses
+jiwer>=3.0                    # WER/CER + alignment for error tagging
+silero-vad>=5.0              # voice activity detection (requires torch)
+torch>=2.0                    # CPU build; backs Silero VAD
+soundfile>=0.12               # WAV I/O
+librosa>=0.10                 # resampling / audio loading
+pandas>=2.0
+pyarrow>=15.0                 # Parquet results tables
+matplotlib>=3.7               # plots
+numpy>=1.24,<2.0
+pyyaml>=6.0                   # config
+tqdm>=4.65                    # progress bars
+requests>=2.31               # dataset downloads
+datasets>=2.18                # Svarah (gated HF dataset) loading
+huggingface_hub>=0.20         # HF auth / downloads (pulled by datasets)
+jellyfish>=1.0                # phonetic matching for error categorization
+transformers>=4.30            # strong neural-LM (GPT-2) n-best rescoring (Phase B)
+
+# --- Optional: KenLM (Phase B) ---
+# KenLM has NO official Windows wheels and requires a C++ toolchain to build.
+# If unavailable, the pipeline auto-falls back to a pure-Python n-gram LM.
+# To use KenLM (Linux/Mac/WSL or Windows with MSVC + CMake + Boost):
+#   pip install https://github.com/kpu/kenlm/archive/master.zip
+# kenlm

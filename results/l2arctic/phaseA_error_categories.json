@@ -1,0 +1,20 @@
+{
+  "dataset": "l2arctic",
+  "n_errors": 264,
+  "counts": {
+    "deletion_other": 6,
+    "accent_phoneme": 120,
+    "reference_error": 6,
+    "normalization": 24,
+    "hallucination": 30,
+    "model_lexical": 78
+  },
+  "proportions": {
+    "accent_phoneme": 0.4545,
+    "model_lexical": 0.2955,
+    "hallucination": 0.1136,
+    "normalization": 0.0909,
+    "deletion_other": 0.0227,
+    "reference_error": 0.0227
+  }
+}

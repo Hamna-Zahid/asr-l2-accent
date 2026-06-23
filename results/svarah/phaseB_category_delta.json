@@ -1,0 +1,27 @@
+{
+  "dataset": "svarah",
+  "n_changed_utts": 0,
+  "baseline_errors_by_category": {
+    "accent_phoneme": 29,
+    "normalization": 11,
+    "hallucination": 19,
+    "deletion_other": 19,
+    "model_lexical": 33
+  },
+  "adapted_errors_by_category": {
+    "accent_phoneme": 29,
+    "normalization": 11,
+    "hallucination": 19,
+    "deletion_other": 19,
+    "model_lexical": 33
+  },
+  "net_change_by_category": {
+    "accent_phoneme": 0,
+    "deletion_other": 0,
+    "hallucination": 0,
+    "model_lexical": 0,
+    "normalization": 0
+  },
+  "fixed_by_category": {},
+  "regressed_by_category": {}
+}
