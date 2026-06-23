@@ -104,6 +104,9 @@ def main() -> int:
                     help="comma-separated lambda values (override config grid)")
     ap.add_argument("--model", default=None,
                     help="ASR model override for n-best decoding (e.g. base.en, tiny.en)")
+    ap.add_argument("--no-decode", action="store_true",
+                    help="use only the cached n-best; never decode (e.g. when the "
+                         "cache was produced by a different ASR family via decode_nbest.py)")
     args = ap.parse_args()
 
     cfg = load_config(args.config)
@@ -128,7 +131,13 @@ def main() -> int:
     _tag = ("_" + args.model.replace(".", "")) if args.model else ""
     cache_path = rdir / f"phaseB_nbest{_tag}.jsonl"
     nbest = _get_nbest_cache(cache_path)
-    nbest = _decode_nbest(utts, cfg, n, cache_path, nbest)
+    if args.no_decode:
+        n_missing = sum(1 for u in utts if u.utt_id not in nbest)
+        if n_missing:
+            print(f">> --no-decode: {n_missing} clips not in cache will be skipped "
+                  f"(cache has {len(nbest)})", file=sys.stderr)
+    else:
+        nbest = _decode_nbest(utts, cfg, n, cache_path, nbest)
 
     lm = load_lm(args.lm)
 

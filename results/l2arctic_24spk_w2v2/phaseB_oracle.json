@@ -1,0 +1,18 @@
+{
+  "dataset": "l2arctic_24spk_w2v2",
+  "n_test": 792,
+  "nbest_depth": 10,
+  "test_wer_baseline_top1": 0.07049387927395526,
+  "test_wer_oracle": 0.0524834670043619,
+  "oracle_by_depth": {
+    "1": 0.07049387927395526,
+    "2": 0.06402138736457014,
+    "3": 0.06120726044744618,
+    "5": 0.055860419304910654,
+    "10": 0.0524834670043619
+  },
+  "test_wer_gpt2_adapted": 0.0669762206275503,
+  "headroom_abs": 0.018010412269593358,
+  "headroom_rel_pct": 25.548902195608783,
+  "gpt2_fraction_of_headroom_captured": 0.19531249999999986
+}

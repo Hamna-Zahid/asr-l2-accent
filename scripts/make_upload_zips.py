@@ -16,7 +16,10 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT.parent
 
 CODE_ITEMS = ["src", "scripts", "config", "requirements.txt", "README.md",
-              "DATA.md", "ANNOTATION.md", "LICENSE", ".gitignore", "colab"]
+              "DATA.md", "ANNOTATION.md", "LICENSE", ".gitignore", "colab",
+              # small Phase-B artifacts needed on Colab (gitignored, so listed here):
+              "models/lm/l2arctic_4gram.pkl",     # weak-LM rung + ladder baseline
+              "data/lm/l2arctic_corpus.txt"]      # leakage-guarded corpus (LM fine-tune)
 
 
 def _add(zf: zipfile.ZipFile, path: Path, arc_root: str) -> int:

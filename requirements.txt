@@ -22,7 +22,8 @@ requests>=2.31               # dataset downloads
 datasets>=2.18                # Svarah (gated HF dataset) loading
 huggingface_hub>=0.20         # HF auth / downloads (pulled by datasets)
 jellyfish>=1.0                # phonetic matching for error categorization
-transformers>=4.30            # strong neural-LM (GPT-2) n-best rescoring (Phase B)
+transformers>=4.30            # strong neural-LM (GPT-2) rescoring + wav2vec2 (2nd ASR family)
+pyctcdecode>=0.5              # CTC beam-search n-best with scores (wav2vec2 family)
 
 # --- Optional: KenLM (Phase B) ---
 # KenLM has NO official Windows wheels and requires a C++ toolchain to build.
